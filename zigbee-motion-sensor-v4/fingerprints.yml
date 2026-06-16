@@ -18,7 +18,12 @@ zigbeeManufacturer:
     deviceLabel: INGENIUM Motion Sensor
     manufacturer: Megaman
     model: PS601/z1
-    deviceProfileName: motion-battery
+    deviceProfileName: motion-battery  
+  - id: "_TZE200_ka8l86iu/TS0601"
+    deviceLabel: Tuya Presence Sensor
+    manufacturer: _TZE200_ka8l86iu
+    model: TS0601
+    deviceProfileName: motion-battery-ef00
   - id: "NYCE/3041"
     deviceLabel: NYCE Motion Sensor
     manufacturer: NYCE
@@ -549,8 +554,3 @@ zigbeeManufacturer:
     deviceLabel: TS0210 Vibration Sensor
     model: TS0210
     deviceProfileName: motion-battery-sens
-
-   - id: "TS0601/_TZE200_ka8l86iu"
-     deviceLabel: Tuya Presence Sensor
-     manufacturer: _TZE200_ka8l86iu
-     model: TS0601
